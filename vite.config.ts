@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/bg3-teams/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/baldurs-picker/' : '/',
   plugins: [vue(), tailwindcss()],
 });
