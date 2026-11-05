@@ -135,7 +135,7 @@ const buildsMap = {
         chest: 'Luminous Armor',
         gloves: 'Gloves of Belligerent Skies',
         boots: 'Boots of Stormy Clamour',
-        amulet: 'The Whispering Promise',
+        amulet: 'Amulet of the Devout',
         rings: ['Coruscation Ring', 'Callous Glow Ring'],
         cloak: 'Cloak of the Weave'
       },
@@ -169,7 +169,7 @@ const buildsMap = {
       keyFeats: ['War Caster', 'Alert', 'Ability Score Improvement (+2 WIS)'],
       statGoals: { str: 10, dex: 12, con: 16, int: 8, wis: 20, cha: 12 },
       weapons: [
-        { name: 'The Whispering Promise (Dagger/Staff alternative)', act: 1, type: 'Mace', sourceCategory: 'Main Story & Vendors', description: 'Equip with any standard 1H weapon while Whispering Promise ring/amulet handles buffing.' },
+        { name: "Devotee's Mace", act: 3, type: 'Mace', sourceCategory: 'Main Story & Vendors', description: 'Divine Intervention weapon providing a 10-turn AoE healing aura.' },
         { name: 'Selûne\'s Spear of Night', act: 2, type: 'Spear', sourceCategory: 'Quest Locked', questLockWarning: 'Requires sparing Nightsong and rejecting the dark path in the Shadowfell.', description: 'Grants advantage on Wisdom saves and Moonmote zone illumination.' },
         { name: 'Shar\'s Spear of Evening', act: 2, type: 'Spear', sourceCategory: 'Quest Locked', questLockWarning: 'Requires slaying Nightsong and committing to Shar, locking out Selûnite rewards.', description: 'Grants total blindness immunity, at-will Darkness, and bonus damage against obscured targets.' },
         { name: 'Ketheric\'s Warhammer', act: 2, type: 'Warhammer', sourceCategory: 'Main Story & Vendors', description: 'Looted from Ketheric Thorm upon defeat, provides solid bludgeoning and radiant bonus.' }
